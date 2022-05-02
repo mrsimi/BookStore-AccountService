@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QBn/ISSlZrnG036IBQlEtN8pg4a+ho7RS9W9+v7oNsc=",
+  "Source": "Contoso-BookStore-AccountService",
+  "BasePath": "_content/Contoso-BookStore-AccountService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
