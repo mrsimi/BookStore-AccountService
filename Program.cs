@@ -31,7 +31,7 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", ( ) => "Contoso-BookStore AccountService");
 
-app.MapPost("/account/register", async (RegisterRequest request, IAccountService accountService) =>
+app.MapPost("api/account/register", async (RegisterRequest request, IAccountService accountService) =>
 {
     var result = await accountService.Register(request);
 
@@ -46,7 +46,7 @@ app.MapPost("/account/register", async (RegisterRequest request, IAccountService
     }
 });
 
-app.MapPost("/account/login", async (LoginRequest request, IAccountService accountService) =>
+app.MapPost("/api/account/login", async (LoginRequest request, IAccountService accountService) =>
 {
     var result = await accountService.Login(request);
 
